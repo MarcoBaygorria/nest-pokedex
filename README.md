@@ -12,29 +12,37 @@ npm install
 ```
 
 3. Tener Nest CLI instalado.
+
 ```
 npm install -g @nestjs/cli
 ```
 
 4. Levantar la base de datos.
+
 ```
 docker-compose up -d
 ```
 
+5. Reconstruir la base de datos con la semilla
+
+```
+http://localhost:3000/api/v2/seed
+```
+
 ## Stack Usado
-* MongoDB
-* Nest
+
+- MongoDB
+- Nest
 
 ## Herramientas de desarrollo
-* TablePlus/MongoDB Compass
-* Docker
-* PostMan
+
+- TablePlus/MongoDB Compass
+- Docker
+- PostMan
 
 # Opcional
+
 ```
 Conectarse a la base de datos con TablePlus u otro.
 mongodb://localhost:27017/nest-pokemon
 ```
-
-
-
